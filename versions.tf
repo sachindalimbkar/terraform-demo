@@ -3,7 +3,7 @@ terraform {
   required_version = ">= 1.0.0"
 
   backend "gcs" {
-    bucket = "terraform-bcknd"
+    bucket = "terraform-bcknd-461716-g1"
     prefix = "gke-cluster/terraform.tfstate"
   }
 }
